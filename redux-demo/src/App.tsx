@@ -1,13 +1,17 @@
-import React from 'react';
+import React from 'react'
+// import Form from './Form';
+// import Account from './Account';
+import UserData from './UserData';
 
-import "./store"
-
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      redux example
-    </div>
-  );
+    <>
+      {/* <Form />
+      <Account /> */}
+      <UserData />
+    </>
+  )
 }
 
 export default App;
+
